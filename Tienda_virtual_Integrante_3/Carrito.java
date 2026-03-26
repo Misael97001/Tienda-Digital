@@ -11,4 +11,11 @@ public class Carrito {
         this.precios = new double[10];
         this.cantidad = 0;
     }
+       public void agregarProducto(String nombre, double precio) {
+        productos[cantidad] = nombre;
+        precios[cantidad] = precio;
+        cantidad++;
+        System.out.println("Producto agregado: " + nombre + " ($" + String.format("%.2f", precio) + ")");
+    }
 }
+ 
