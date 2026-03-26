@@ -1,3 +1,4 @@
+package Tienda;
 public class Producto {
     
     // Atributos
@@ -14,5 +15,7 @@ public class Producto {
         this.categoria = categoria;
     }    
 
+
+    
     
 }
