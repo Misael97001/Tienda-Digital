@@ -17,5 +17,12 @@ public class Carrito {
         cantidad++;
         System.out.println("Producto agregado: " + nombre + " ($" + String.format("%.2f", precio) + ")");
     }
+    public void calcularTotal() {
+        double total = 0;
+        for (int i = 0; i < cantidad; i++) {
+            total += precios[i];
+        }
+        System.out.println("Total del carrito: $" + String.format("%.2f", total));
+    }
 }
  
