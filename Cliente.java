@@ -35,7 +35,9 @@ public class Cliente {
             System.out.println("Saldo actual: $" + saldo);
         }
     }
-
-
+    // Método mostrarSaldo
+    public void mostrarSaldo() {
+        System.out.println("Saldo disponible: $" + saldo);
+    }
     
 }
