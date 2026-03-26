@@ -24,5 +24,16 @@ public class Carrito {
         }
         System.out.println("Total del carrito: $" + String.format("%.2f", total));
     }
+    public void mostrarResumen() {
+        System.out.println("=== Carrito de " + nombreCliente + " ===");
+        for (int i = 0; i < cantidad; i++) {
+            System.out.println((i + 1) + ". " + productos[i] + " - $" + String.format("%.2f", precios[i]));
+        }
+        double total = 0;
+        for (int i = 0; i < cantidad; i++) {
+            total += precios[i];
+        }
+        System.out.println("Total: $" + String.format("%.2f", total));
+    }
 }
  
