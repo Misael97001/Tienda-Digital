@@ -1,3 +1,4 @@
+package Tienda;
 public class Carrito {
  
     private String nombreCliente;

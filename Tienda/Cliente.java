@@ -1,3 +1,4 @@
+package Tienda;
 public class Cliente {
 
      // Atributos
